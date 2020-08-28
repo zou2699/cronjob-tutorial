@@ -1,0 +1,7 @@
+domain: tutorial.kubebuilder.io
+repo: github.com/zou2699/cronjob-tutorial
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
+version: "2"
